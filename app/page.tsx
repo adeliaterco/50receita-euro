@@ -3,7 +3,7 @@ import { Check, Shield, CreditCard, Award } from "lucide-react"
 import Image from "next/image"
 
 export default function LandingPage() {
-  const checkoutUrl = "https://pay.hotmart.com/T101544847H?off=gjxwfvpo"
+  const checkoutUrl = "https://pay.hotmart.com/T101544847H?checkoutMode=10"
   const guaranteeImageUrl =
     "https://nutricaoalimentos.shop/wp-content/uploads/2025/08/original-8d34935a6d5cfcb53083fb9d284ce723.webp"
 
@@ -210,7 +210,7 @@ export default function LandingPage() {
                 Terms & Conditions
               </a>
               <a href="#" className="hover:underline">
-                Privacy Policy 
+                Privacy Policy
               </a>
             </div>
           </div>
