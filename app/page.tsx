@@ -27,7 +27,7 @@ export default function LandingPage() {
             <img
               src="/images/recipe-book.png"
               alt="50 Quick & Healthy Recipes"
-              className="mx-auto w-48 h-auto sm:w-64 sm:h-auto object-contain rounded-lg shadow-lg"
+              className="mx-auto w-full max-w-xs h-auto object-contain rounded-lg shadow-lg"
             />
           </div>
 
