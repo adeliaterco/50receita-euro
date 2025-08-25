@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Check, Shield, CreditCard, Award } from "lucide-react"
 
 export default function LandingPage() {
-  const checkoutUrl = "https://pay.hotmart.com/T101544847H?off=gjxwfvpo"
+  const checkoutUrl = "https://pay.hotmart.com/T101544847H?off=i51otnt4"
   const guaranteeImageUrl =
     "https://nutricaoalimentos.shop/wp-content/uploads/2025/08/original-8d34935a6d5cfcb53083fb9d284ce723.webp"
 
