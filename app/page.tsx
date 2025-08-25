@@ -189,7 +189,7 @@ export default function LandingPage() {
         {/* Footer */}
         <footer className="bg-green-800 text-white py-6 sm:py-8">
           <div className="max-w-4xl mx-auto px-4 text-center">
-            <p className="text-sm mb-4">HEALTH NUTRI</p>
+            <p className="text-sm mb-4">NUTRI HEALTH</p>
             <div className="flex justify-center gap-4 sm:gap-6 text-sm">
               <a href="#" className="hover:underline">
                 Terms & Conditions
