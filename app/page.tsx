@@ -3,15 +3,18 @@ import { Check, Shield, CreditCard, Award } from "lucide-react"
 import Image from "next/image"
 
 export default function LandingPage() {
-  const checkoutUrl = "https://pay.hotmart.com/T101544847H?checkoutMode=10"
+  const checkoutUrl = "https://pay.hotmart.com/T101544847H?off=gjxwfvpo"
   const guaranteeImageUrl =
     "https://nutricaoalimentos.shop/wp-content/uploads/2025/08/original-8d34935a6d5cfcb53083fb9d284ce723.webp"
+  const mainProductImageUrl =
+    "https://optimalhealthscout.shop/wp-content/uploads/2025/08/complete-e-book-cover-design-physical-bo_1XiiufWdSXGI8vInPnRKKw_XpxUgS_kTmWnTVAp0Bh1PA.webp"
 
   return (
     <>
-      <link rel="preload" href="/images/recipe-book.png" as="image" />
+      <link rel="preload" href={mainProductImageUrl} as="image" />
       <link rel="preconnect" href="https://pay.hotmart.com" />
       <link rel="preconnect" href="https://nutricaoalimentos.shop" />
+      <link rel="preconnect" href="https://optimalhealthscout.shop" />
 
       <div className="min-h-screen bg-gray-50">
         {/* Header with urgency */}
@@ -29,10 +32,10 @@ export default function LandingPage() {
 
           <div className="mb-6">
             <Image
-              src="/images/recipe-book.png"
+              src={mainProductImageUrl || "/placeholder.svg"}
               alt="50 Quick & Healthy Recipes"
-              width={240}
-              height={320}
+              width={300}
+              height={400}
               priority
               sizes="(max-width: 640px) 240px, 300px"
               className="mx-auto w-full max-w-[240px] sm:max-w-xs h-auto object-contain rounded-lg shadow-lg"
